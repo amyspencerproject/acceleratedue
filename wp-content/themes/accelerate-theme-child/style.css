@@ -60,5 +60,6 @@ Text Domain:  accelerate-theme-child
 
 .homepage-featured-work {
 	list-style-type: none;
+	display: inline;
 }
 
