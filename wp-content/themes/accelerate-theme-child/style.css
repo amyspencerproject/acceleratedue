@@ -58,8 +58,27 @@ Text Domain:  accelerate-theme-child
 	width: 300px;
 }
 
-.homepage-featured-work {
-	list-style-type: none;
-	display: inline;
+.featured-work .site-content {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
 }
 
+.featured-work h3 {
+	width: 100%;
+	text-align: center; 
+}
+.homepage-featured-work  {
+	list-style-type: none;
+}
+
+ .homepage-featured-work li {
+	display: inline;
+	padding: 0 20px;
+} 
+
+.homepage-featured-work {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+}
