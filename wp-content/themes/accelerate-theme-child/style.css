@@ -57,3 +57,8 @@ Text Domain:  accelerate-theme-child
 	float: left;
 	width: 300px;
 }
+
+.homepage-featured-work {
+	list-style-type: none;
+}
+
