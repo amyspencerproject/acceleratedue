@@ -46,7 +46,61 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
-/******* Case Study styles *******/
+/******** Case Study styles ********/
+.single-case-study {
+	font-family: 'Open Sans', Arial, sans-serif;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	margin-top: 5rem;
+}
+.single-case-study p {
+	font-size: 1.5rem;
+}
+
+.single-case-study-sidebar {
+	float: left;
+	width: 550px;
+	padding: 0;
+}
+
+.single-case-study-sidebar h2 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size:2.25rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.single-case-study-sidebar h5 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.5rem;
+	text-transform: none;
+	color: gray;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.single-case-study-sidebar p {
+	margin: 2rem 0;
+}
+
+
+.single-case-study-images {
+	float: left;
+	width: 550px;
+}
+
+.visit-site-link a {
+	font-family: 'Montserrat';
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+
+/******* Case Study Archive styles *******/
 
 /* Added to overwrite something in parent that was squishing entire child site content into 960px */
 .page-header, .site-content, #navigation, .site-footer {
@@ -105,6 +159,11 @@ Text Domain:  accelerate-theme-child
 
 /* Accommodate for different size images */
 div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+div.single-case-study-images img {
 	width: 100%;
 	height: auto;
 }

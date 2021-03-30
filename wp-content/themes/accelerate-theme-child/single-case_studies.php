@@ -25,18 +25,18 @@ get_header(); ?>
             
             
 
-                <article class="case-study">
+                <article class="single-case-study">
 
-                    <aside class="case-study-sidebar">
+                    <aside class="single-case-study-sidebar">
                         <h2><?php the_title (); ?></h2>
                         <h5><?php echo $services; ?></h5>
                         <h6>Client: <?php echo $client; ?></h6>
                         <?php the_content(); ?>
 
-                        <p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
+                        <p class="visit-site-link"><strong><a href="<?php echo $link; ?>">Visit Site Link &raquo;</a></strong></p>
                     </aside>
 
-                    <div class="case-study-images">
+                    <div class="single-case-study-images">
                     
                         <?php if ($image_1) { 
                             echo wp_get_attachment_image( $image_1, $size );
@@ -61,7 +61,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
     <nav id="navigation" class="container">
-	<div class="left"><a href="<?php echo site_url('') ?>">&larr; <span>Back to work</span></a></div>
+	<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
     </nav>
 
 <?php get_footer(); ?>
