@@ -25,7 +25,7 @@ get_header(); ?>
             
             
 
-                <aricle class="case-study">
+                <article class="case-study">
 
                     <aside class="case-study-sidebar">
                         <h2><?php the_title (); ?></h2>
