@@ -215,3 +215,16 @@ div.single-case-study-images img {
 	color: white;
 	padding: 0.1rem;
 }
+
+/****** Contact Form styles ********/
+
+.nf-form-fields-required {
+	display: none;
+}
+
+.ninja-forms-req-symbol {
+	display: none;
+}
+
+
+
