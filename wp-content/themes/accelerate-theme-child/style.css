@@ -193,3 +193,25 @@ div.single-case-study-images img {
 	flex-flow: row nowrap;
 }
 
+/******* Social Media Nav Menu Icon styles ********/
+
+.social-media-navigation ul {
+	list-style-type: none;
+}
+
+.social-media-navigation li {
+	display: inline;
+	margin: 0 0.5rem;
+} 
+
+.social-media-menu li {
+	color: white;
+	border-radius: 50%;
+	background: #424242;
+	padding: 0.5rem 0.3rem;
+}
+
+.social-media-menu a {
+	color: white;
+	padding: 0.1rem;
+}
