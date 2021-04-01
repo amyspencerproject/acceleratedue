@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 // Add Custom Post Types functions //
 
 function create_custom_post_types () {
-// create a case studie custom post type //
+// create a case study custom post type //
 
 	register_post_type ( 'case_studies',
 		array(
@@ -31,6 +31,19 @@ function create_custom_post_types () {
 			'public' => true,
 			'has_archive' => true,
 			'rewrite' => array( 'slug' => 'case-studies'),
+		)
+	);
+
+	// create a About Page Entry custom post type //
+	register_post_type ( 'about_entry',
+		array(
+			'labels' => array (
+				'name' => __ ('About Entries'),
+				'singular_name' => __ ('About Entry')
+			),
+			'public' => true,
+			'has_archive' => true,
+			/* 'rewrite' => array( 'slug' => 'case-studies'), */
 		)
 	);
 }
