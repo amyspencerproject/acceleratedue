@@ -237,10 +237,23 @@ div.single-case-study-images img {
 	float: right;
 }
 
+
+#contact-form-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+}
+
 .contact-form .main-content {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+	width: 60%;
 }
 
 .contact-form .main-content h2 {

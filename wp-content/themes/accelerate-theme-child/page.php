@@ -14,6 +14,8 @@
 
 get_header(); ?>
 
+<section id="contact-form-wrapper">
+
 	<div id="primary" class="contact-form">
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -23,5 +25,7 @@ get_header(); ?>
 		</div><!-- .main-content -->
 		
 	</div><!-- #primary -->
+
+</section>
 
 <?php get_footer(); ?>
