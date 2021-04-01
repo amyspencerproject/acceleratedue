@@ -226,5 +226,37 @@ div.single-case-study-images img {
 	display: none;
 }
 
+#nf-form-1-cont .nf-form-content {
+	margin: 0;
+}
 
 
+#nf-field-4 {
+	background: #45ac9d;
+	color: white;
+	padding: 1rem 5rem;
+	float: right;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	/* margin-left: 20rem; */
+}
+
+.main-content h2 {
+	font-size: 2rem;
+	width: 60%;
+	/* text-align: center; */
+}
+
+.main-content p {
+	font-size: 1.2rem;
+	width: 60%;
+	float: left;
+}
+
+#nf-form-1-cont {
+	width: 60%;
+}
