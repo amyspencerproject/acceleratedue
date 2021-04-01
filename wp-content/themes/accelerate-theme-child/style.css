@@ -230,7 +230,6 @@ div.single-case-study-images img {
 	margin: 0;
 }
 
-
 #nf-field-4 {
 	background: #45ac9d;
 	color: white;
@@ -238,24 +237,21 @@ div.single-case-study-images img {
 	float: right;
 }
 
-.main-content {
+.contact-form .main-content {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	/* margin-left: 20rem; */
 }
 
-.main-content h2 {
+.contact-form .main-content h2 {
 	font-size: 2rem;
 	width: 60%;
-	/* text-align: center; */
 }
 
-.main-content p {
+.contact-form .main-content p {
 	font-size: 1.2rem;
 	width: 60%;
-	float: left;
-}
+} 
 
 #nf-form-1-cont {
 	width: 60%;
