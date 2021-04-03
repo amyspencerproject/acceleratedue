@@ -46,8 +46,11 @@ get_header(); ?>
 
 	</div><!-- #primary -->
 
-    <nav id="navigation" class="container">
-	<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
+    <nav id="contact" class="container">
+        <div class="about-contact">
+			<h1>Interested in working with us?</h1>
+			<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
+		</div>
     </nav>
 
 <?php get_footer(); ?>
