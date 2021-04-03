@@ -272,23 +272,44 @@ div.single-case-study-images img {
 
 /******* ABOUT PAGE STYLES ********/
 
-#contact  {
+/* #contact  {
 	width: 60%;
 	margin: 0 20%;
 }
 
-#contact .about-contact {
+.#contact .about-contact {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-flow: row wrap;
 }
 
-#contact .about-contact h1 {
+.#contact .about-contact h1 {
 	margin: 0 2rem;
 	font-size: 1.75rem;
 }
 
 #contact .about-contact a {
+	font-size: 1.25rem;
+} */
+
+#about-page-contact {
+	display: flex;
+	justify-content: center;
+}
+
+.about-contact {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.about-contact h1 {
+	margin: 0 2rem;
+	font-size: 1.75rem;
+}
+
+.about-contact a {
 	font-size: 1.25rem;
 }
