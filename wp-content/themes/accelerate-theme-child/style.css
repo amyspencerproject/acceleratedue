@@ -272,17 +272,36 @@ div.single-case-study-images img {
 
 /******* ABOUT PAGE STYLES ********/
 /*** styles for about-page.php in the custom template folder ***/
+#about-hero .main-content {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
 
-/* .about-page-hero {
-    background: url("img/hero-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    height: auto;
-    margin: 0 0 5em;
-    padding: 8em 0;
-	text-align: center;
-} */
+#about-hero .main-content .home-page {
+	padding: 0;
+}
 
-/* .hero-content h3 {
-	width: 60%;
+#about-hero .main-content h3 {
+	font-size: 2em;
+	margin: 0;
+	margin-top: 3em;
+	width: 40%;
+} 
+
+/* .hero-content h1 {
+	color: #fff;
+	font-weight:bold;
+	font-size: 2em;
+	line-height: 1.5;
+	margin: 0 2%;
+}
+.hero-content h3 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 3em;
 } */
 
 .ct-about-page .site-content {
