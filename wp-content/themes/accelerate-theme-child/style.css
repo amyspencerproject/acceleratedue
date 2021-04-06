@@ -315,12 +315,11 @@ div.single-case-study-images img {
 	text-align: center;
 }
 
-#about-page-contact {
-	border-top: 1px solid #bfbfbf;
-	padding-top: 2em;
+figure .single-about-entry-images {
+	background: #45ac9d;
 }
 
-/*** Single About Entry Styles ***/
+/*** Styles for About Page Contact section also used on Single About Entry ***/
 #about-page-contact {
 	display: flex;
 	justify-content: center;
@@ -340,4 +339,9 @@ div.single-case-study-images img {
 
 .about-contact a {
 	font-size: 1.25rem;
+}
+
+#about-page-contact {
+	border-top: 1px solid #bfbfbf;
+	padding-top: 2em;
 }

@@ -10,7 +10,7 @@
 
 get_header(); ?>
 
-<div id="about-hero" class="home-page hero-content">   
+<div id="about-hero" class="home-page hero-content"> <!-- can not change this odd "home-page hero-content" class or no background image -->  
 	<div class="main-content" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php the_content(); ?>
@@ -31,17 +31,17 @@ get_header(); ?>
 		</div>
 
 		<section class="about-enteries">
-			<?php query_posts('posts_per_page=4&post_type=about_entry'); ?>
+			<?php query_posts('post_type=about_entry'); ?>
 				<?php while ( have_posts() ) : the_post(); 
 					$image_1= get_field('image_1');
 					$size="full";
 					$description= get_field('description')?>
 
-					<figure class="single-about-entry-images">
-						<?php if ($image) { 
-							echo wp_get_attachment_image( $image, $size );
+					<div class="single-about-entry-images">
+						<?php if ($image_1) { 
+							echo wp_get_attachment_image( $image_1, $size );
 						} ?>                   
-					</figure>
+					</div>
 					
 					<div class="single-about-entry-sidebar">
 						<h1><?php the_title (); ?></h1>

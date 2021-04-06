@@ -17,12 +17,9 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); 
                 $description = get_field('description');
                 $size = "full";
-                $image = get_field('image');?>  
+                $image_1 = get_field('image');?>  
             
-            <h2>Our Services</h2>
-			<p>We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
-
-            <article class="single-about_entry">
+                <article class="single-about_entry">
 
                     <aside class="single-about-entry-sidebar">
                         <h1><?php the_title (); ?></h1>
@@ -32,13 +29,12 @@ get_header(); ?>
 
                     <div class="single-about-entry-images">
                     
-                        <?php if ($image) { 
-                            echo wp_get_attachment_image( $image, $size );
+                        <?php if ($image_1) { 
+                            echo wp_get_attachment_image( $image_1, $size );
                         } ?>                   
                         
                     </div>
-                </article>
-
+                </article> <!-- .single-about-entry-sidebar -->
 				
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
