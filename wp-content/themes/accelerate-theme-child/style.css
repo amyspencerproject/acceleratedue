@@ -271,28 +271,37 @@ div.single-case-study-images img {
 }
 
 /******* ABOUT PAGE STYLES ********/
+/*** styles for about-page.php in the custom template folder ***/
 
-/* #contact  {
+/* .about-page-hero {
+    background: url("img/hero-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	text-align: center;
+} */
+
+/* .hero-content h3 {
 	width: 60%;
-	margin: 0 20%;
-}
+} */
 
-.#contact .about-contact {
+.ct-about-page .site-content {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: center;
+	/* flex-grow: 4; */
 	flex-flow: row wrap;
 }
 
-.#contact .about-contact h1 {
-	margin: 0 2rem;
-	font-size: 1.75rem;
+.service-text {
+	text-align: center;
 }
 
-#contact .about-contact a {
-	font-size: 1.25rem;
-} */
+#about-page-contact {
+	border-top: 1px solid #bfbfbf;
+	padding-top: 2em;
+}
 
+/*** Single About Entry Styles ***/
 #about-page-contact {
 	display: flex;
 	justify-content: center;
