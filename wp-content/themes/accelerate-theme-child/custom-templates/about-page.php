@@ -31,20 +31,21 @@ get_header(); ?>
 		</div>
 
 		<section class="about-entries">
+
 			<?php query_posts('post_type=about_entry'); ?>
 				<?php while ( have_posts() ) : the_post(); 
 					$image= get_field('image');
 					$size="full";
 					$description = get_field ('description')
 				?>
-						<figure>
+						<figure class=about-entry-image>
 							<?php echo wp_get_attachment_image($image,$size); ?>
 						</figure>
 
-						<img src="<?php the_field('image'); ?>"/>
-
-						<h3><?php the_title(); ?></h3>
-						<p><?php echo $description; ?></p>	
+						<div class="about-entry-text">
+							<h3><?php the_title(); ?></h3>
+							<p><?php echo $description; ?></p>
+						</div> 	
 					
 				<?php endwhile; ?> 
 			<?php wp_reset_query(); ?>
