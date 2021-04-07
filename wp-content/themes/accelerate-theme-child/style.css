@@ -271,7 +271,6 @@ div.single-case-study-images img {
 }
 
 /******* ABOUT PAGE STYLES ********/
-/*** styles for about-page.php in the custom template folder ***/
 #about-hero .main-content {
 	display: flex;
 	justify-content: center;
@@ -304,7 +303,7 @@ div.single-case-study-images img {
     margin: 0 0 3em;
 } */
 
-.ct-about-page .site-content {
+.about-page .site-content {
 	display: flex;
 	justify-content: center;
 	/* flex-grow: 4; */
@@ -315,11 +314,8 @@ div.single-case-study-images img {
 	text-align: center;
 }
 
-figure .single-about-entry-images {
-	background: #45ac9d;
-}
 
-/*** Styles for About Page Contact section also used on Single About Entry ***/
+/*** Styles for About Page Contact section ***/
 #about-page-contact {
 	display: flex;
 	justify-content: center;
