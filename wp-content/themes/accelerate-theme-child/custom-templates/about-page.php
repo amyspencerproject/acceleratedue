@@ -41,6 +41,8 @@ get_header(); ?>
 							<?php echo wp_get_attachment_image($image,$size); ?>
 						</figure>
 
+						<img src="<?php the_field('image'); ?>"/>
+
 						<h3><?php the_title(); ?></h3>
 						<p><?php echo $description; ?></p>	
 					
