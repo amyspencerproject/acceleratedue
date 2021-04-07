@@ -19,14 +19,10 @@ get_header(); ?>
 	</div><!-- .main-content -->
 </div><!-- #about-hero -->
 
-
-
-
-
 <section class="about-page">
 	<div class="site-content">
 		<div class="service-text">
-			<h2>Our Services</h2>
+			<h4>Our Services</h4>
 			<p>We take pride in our clients and the content we create for them. <br>Here's a brief overview of our offered services.</p>
 		</div>
 
@@ -35,18 +31,20 @@ get_header(); ?>
 			<?php query_posts('post_type=about_entry'); ?>
 				<?php while ( have_posts() ) : the_post(); 
 					$image= get_field('image');
-					$size="full";
-					$description = get_field ('description')
-				?>
-						<figure class=about-entry-image>
-							<?php echo wp_get_attachment_image($image,$size); ?>
-						</figure>
+					$size="medium";
+					$description = get_field ('description')?>
 
+					<div class="individual-about-entry">
+						<div class=about-entry-image>
+							<?php echo wp_get_attachment_image($image,$size); ?>
+						</div>
+							
 						<div class="about-entry-text">
 							<h3><?php the_title(); ?></h3>
 							<p><?php echo $description; ?></p>
-						</div> 	
-					
+						</div>
+					</div> <!-- .indivdual-about-entry -->
+						
 				<?php endwhile; ?> 
 			<?php wp_reset_query(); ?>
 
@@ -56,7 +54,7 @@ get_header(); ?>
 
     <div id="about-page-contact" class="site-content">
         <div class="about-contact">
-			<h1>Interested in working with us?</h1>
+			<h3>Interested in working with us?</h3>
 			<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
 		</div>
     </div> <!-- .site-content -->

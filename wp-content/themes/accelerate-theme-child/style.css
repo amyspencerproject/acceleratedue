@@ -271,6 +271,13 @@ div.single-case-study-images img {
 }
 
 /******* ABOUT PAGE STYLES ********/
+
+#about-hero {
+	padding-bottom: 20rem;
+	padding-top: 0;
+	margin: 0;
+}
+
 #about-hero .main-content {
 	display: flex;
 	justify-content: center;
@@ -282,43 +289,74 @@ div.single-case-study-images img {
 }
 
 #about-hero .main-content h3 {
-	font-size: 2em;
-	margin: 0;
-	margin-top: 3em;
-	width: 40%;
+	font-size: 2.25rem;
+	line-height: 1.4;
+	width: 45%;
+	position: relative;
+	top: 15rem;
 } 
-
-/* .hero-content h1 {
-	color: #fff;
-	font-weight:bold;
-	font-size: 2em;
-	line-height: 1.5;
-	margin: 0 2%;
-}
-.hero-content h3 {
-    color: #fff;
-    font-family: 'Open Sans';
-    font-size: 1.4em;
-    font-weight: normal;
-    margin: 0 0 3em;
-} */
 
 .about-page .site-content {
 	display: flex;
 	justify-content: center;
-	/* flex-grow: 4; */
 	flex-flow: row wrap;
 }
 
 .service-text {
 	text-align: center;
+	margin: 3rem 0;
 }
 
+.service-text h4 {
+	font-size: 1.5rem;
+}
+
+.service-text p {
+	font-size: 1.5rem;
+}
+
+/*** Styles for About Page Main Content, About Entries ***/
+
+.about-entries {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.individual-about-entry {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	margin: 2rem 0;
+}
+
+.individual-about-entry:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.about-entry-image {
+	display: flex;
+	justify-content: center;
+	width: 30%;
+}
+
+.about-entry-text {
+	padding: 0 1rem;
+	width: 60%;
+}
+
+.about-entry-text h3 {
+	font-size: 1.75rem;
+}
+
+.about-entry-text p {
+	font-size: 1.25rem;
+}
 
 /*** Styles for About Page Contact section ***/
 #about-page-contact {
-	display: flex;
-	justify-content: center;
+	border-top: 1px solid #bfbfbf;
+	padding-top: 2em;
+	margin-top: 5rem;
 }
 
 .about-contact {
@@ -326,18 +364,22 @@ div.single-case-study-images img {
 	justify-content: space-around;
 	align-items: center;
 	flex-flow: row wrap;
+	margin: 2rem 0;
 }
 
-.about-contact h1 {
+.about-contact h3 {
 	margin: 0 2rem;
 	font-size: 1.75rem;
 }
 
 .about-contact a {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
-#about-page-contact {
-	border-top: 1px solid #bfbfbf;
-	padding-top: 2em;
+.about-contact .button:hover {
+    color: lime;
+    border: 1px solid lime;
+    box-shadow: 5px 15px 33px -10px lime;
+    position: relative;
+    bottom: 5px;
 }
