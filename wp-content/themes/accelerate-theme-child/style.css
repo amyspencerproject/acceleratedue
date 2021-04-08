@@ -383,3 +383,43 @@ div.single-case-study-images img {
     position: relative;
     bottom: 5px;
 }
+
+/******* 404 Page ********/
+#four-o-four-page {
+	background-image: url(img/dinos.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+#four-o-four-page .main-content {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.four-o-four-text {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin-top: 3em;
+	margin-bottom: 20em;
+	width: 45%;
+}
+
+#four-o-four-page h1 {
+	color: #92d3ca;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	margin: 1em 1em;
+	text-align: center;
+	width: 100%;
+}
+
+#four-o-four-page p {
+	color: #92d3ca;
+	font-size: 1.5rem;
+	padding-bottom: 1em;
+	margin: 0 5em;
+	text-align: center;
+}
