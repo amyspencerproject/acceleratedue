@@ -271,9 +271,9 @@ div.single-case-study-images img {
 }
 
 /******* ABOUT PAGE STYLES ********/
-
+/*** Hero Section with Text ***/
 #about-hero {
-	padding-bottom: 20rem;
+	padding-bottom: 10rem;
 	padding-top: 0;
 	margin: 0;
 }
@@ -291,11 +291,12 @@ div.single-case-study-images img {
 #about-hero .main-content h3 {
 	font-size: 2.25rem;
 	line-height: 1.4;
-	width: 45%;
+	width: 50%;
 	position: relative;
-	top: 15rem;
+	top: 10rem;
 } 
 
+/*** Main About Page Content, Service Text and About Entries ***/
 .about-page .site-content {
 	display: flex;
 	justify-content: center;
@@ -304,7 +305,7 @@ div.single-case-study-images img {
 
 .service-text {
 	text-align: center;
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 
 .service-text h4 {
@@ -315,8 +316,6 @@ div.single-case-study-images img {
 	font-size: 1.5rem;
 }
 
-/*** Styles for About Page Main Content, About Entries ***/
-
 .about-entries {
 	display: flex;
 	flex-flow: row wrap;
@@ -326,7 +325,7 @@ div.single-case-study-images img {
 	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
-	margin: 2rem 0;
+	margin: 1.5rem 0;
 }
 
 .individual-about-entry:nth-child(even) {
@@ -352,7 +351,7 @@ div.single-case-study-images img {
 	font-size: 1.25rem;
 }
 
-/*** Styles for About Page Contact section ***/
+/*** Styles for About Page Contact Section ***/
 #about-page-contact {
 	border-top: 1px solid #bfbfbf;
 	padding-top: 2em;
