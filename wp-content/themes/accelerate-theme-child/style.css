@@ -46,6 +46,41 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/******** Front Page Twitter Module ********/
+
+.twitter-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+	padding-left: 5em;
+}
+
+.twitter-post h3 {
+	font-size: 1.5em;
+}
+
+.twitter-post h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em
+}
+
+.follow-us-link a {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.twitter-post .ctf-more button {
+	background-color: none;
+}
+
+
+
+
+
 /******** Case Study styles ********/
 .single-case-study {
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -399,6 +434,7 @@ div.single-case-study-images img {
 
 .four-o-four-text {
 	display: flex;
+	font-family: 'Dela Gothic One', 'Montserrat', 'Open Sans', Arial, sans-serif;
 	justify-content: center;
 	flex-flow: row wrap;
 	margin-top: 3em;
