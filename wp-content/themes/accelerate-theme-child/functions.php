@@ -51,8 +51,8 @@ function create_custom_post_types () {
 //Hook this Custom Post Type function into the theme
 add_action ('init', 'create_custom_post_types');
 
-//Widgetizing a new side-bar that will be on the front page
 
+//Widgetizing a new side-bar that will be on the front page
 function accelerate_theme_child_widget_init() {
 	
 	register_sidebar( array(
@@ -66,4 +66,23 @@ function accelerate_theme_child_widget_init() {
 	) );
 	
 }
+//Hook this widget into the child theme
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+//Widegtizing MC4WP in the Blog Page sidebar
+
+function accelerate_theme_child_mc_widget_init() {
+	
+	register_sidebar( array(
+	    'name' =>__( 'Blogpage sidebar', 'accelerate-theme-child'),
+	    'id' => 'sidebar-blog',
+	    'description' => __( 'Appears on the blog page template', 'accelerate-theme-child' ),
+	    'before_widget' => '<aside id="mc4wp%1" class="widget mc4wp%2">',
+	    'after_widget' => '</aside>',
+	    'before_title' => '<h3 class="mc4wp-title">',
+	    'after_title' => '</h3>',
+	) );
+	
+}
+//Hook this widget into the child theme
+add_action( 'widgets_init', 'accelerate_theme_child_mc_widget_init' );
