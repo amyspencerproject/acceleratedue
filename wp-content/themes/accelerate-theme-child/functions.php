@@ -18,10 +18,10 @@ function accelerate_child_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
-//Custom Post Types Function - Add all new post types in the brakets //
+//Custom Post Types Function - Add all new post types in the brakets 
 function create_custom_post_types () {
 
-	// case study custom post type //
+	// case study custom post type 
 	register_post_type ( 'case_studies',
 		array(
 			'labels' => array (
@@ -34,7 +34,7 @@ function create_custom_post_types () {
 		)
 	);
 
-	//About Page Entry custom post type //
+	//About Page Entry custom post type 
 	register_post_type ( 'about_entry',
 		array(
 			'labels' => array (
