@@ -313,7 +313,6 @@ div.single-case-study-images img {
 /******* ABOUT PAGE STYLES ********/
 /*** Hero Section with Text ***/
 #about-hero {
-	padding-bottom: 10rem;
 	padding-top: 0;
 	margin: 0;
 }
@@ -333,8 +332,10 @@ div.single-case-study-images img {
 	font-size: 1.75rem;
 	line-height: 1.4;
 	width: 50%;
+	padding-bottom: 5rem;
+	margin-bottom: 0;
 	position: relative;
-	top: 10rem;
+	top: 7rem;
 } 
 
 /*** Main About Page Content, Service Text and About Entries ***/
