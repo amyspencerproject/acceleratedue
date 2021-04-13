@@ -96,7 +96,7 @@ Text Domain:  accelerate-theme-child
 	margin-top: 5rem;
 }
 .single-case-study p {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .single-case-study-sidebar {
@@ -107,14 +107,14 @@ Text Domain:  accelerate-theme-child
 
 .single-case-study-sidebar h2 {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size:2.25rem;
+	font-size:2rem;
 	font-weight: 700;
 	margin: 0;
 }
 
 .single-case-study-sidebar h5 {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-transform: none;
 	color: gray;
 	font-weight: lighter;
@@ -133,7 +133,7 @@ Text Domain:  accelerate-theme-child
 
 .visit-site-link a {
 	font-family: 'Montserrat';
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
@@ -155,7 +155,7 @@ Text Domain:  accelerate-theme-child
 	flex-flow: row wrap;
 }
 .case-study p {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .case-study-sidebar {
@@ -166,14 +166,14 @@ Text Domain:  accelerate-theme-child
 
 .case-study-sidebar h2 {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size:2.25rem;
+	font-size:2rem;
 	font-weight: 700;
 	margin: 0;
 }
 
 .case-study-sidebar h5 {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-transform: none;
 	color: gray;
 	font-weight: lighter;
@@ -186,7 +186,7 @@ Text Domain:  accelerate-theme-child
 
 .view-project-link a {
 	font-family: 'Montserrat';
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
@@ -321,6 +321,7 @@ div.single-case-study-images img {
 #about-hero .main-content {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	padding: 0;
 }
 
@@ -329,7 +330,7 @@ div.single-case-study-images img {
 }
 
 #about-hero .main-content h3 {
-	font-size: 2.25rem;
+	font-size: 1.75rem;
 	line-height: 1.4;
 	width: 50%;
 	position: relative;
@@ -349,11 +350,11 @@ div.single-case-study-images img {
 }
 
 .service-text h4 {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .service-text p {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .about-entries {
@@ -384,11 +385,11 @@ div.single-case-study-images img {
 }
 
 .about-entry-text h3 {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 }
 
 .about-entry-text p {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 /*** Styles for About Page Contact Section ***/
@@ -408,11 +409,11 @@ div.single-case-study-images img {
 
 .about-contact h3 {
 	margin: 0 2rem;
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 }
 
 .about-contact a {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .about-contact .button:hover {
